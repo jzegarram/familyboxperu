@@ -169,18 +169,20 @@ header img {
 }
 .products-container .product .content .main_button {
     text-decoration: none;
+    display: flex;
+    justify-content: center;
     color: var(--just-white);
     font-size: 2rem;
     font-family: 'Lobster';
     font-weight: 400;
     background-color: #ff7d7d;
-    width: 100%;
-    padding: 10px 80px;
+    width: 200px;
+    padding: 10px 60px;
     border: 0;
     cursor: pointer;
     border-radius: 2px;
-    margin: auto;
-    outline:none;
+    margin:  0 auto;
+    outline: none;
 } 
 
 .products-container .content .description_content {
@@ -265,3 +267,25 @@ footer .footer-container p{
     font-family: 'Lobster';
 }
 /* End footer */
+
+
+.btn-wsp{
+    width: 60px;
+    height: 60px;
+    position: fixed;
+    top: 88vh;
+    left: 80vw;
+    padding-top: 7px;
+    padding-left: 2px;
+    background: #0df053;
+    color: #fff; 
+    border-radius: 50px;
+    text-align: center;
+    font-size: 45px;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.3);
+    z-index:100;  
+}
+
+ .btn-wsp path {
+    fill: white;
+}
